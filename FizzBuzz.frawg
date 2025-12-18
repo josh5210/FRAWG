@@ -1,0 +1,12 @@
+frawg
+FOR EACH i IN RANGE 1 TO 100 {
+  IF i % 15 IS 0 {
+    CROAK "FizzBuzz" ribbit
+  } OTHERWISE IF i % 3 IS 0 {
+    CROAK "Fizz" ribbit
+  } OTHERWISE IF i % 5 IS 0 {
+    CROAK "Buzz" ribbit
+  } OTHERWISE {
+    CROAK i ribbit
+  } ribbit
+} ribbit
